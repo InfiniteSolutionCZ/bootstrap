@@ -1,0 +1,13 @@
+{
+  // Disable line length check (rely on editor wrapping; long URLs/tables stay readable)
+  "MD013": false,
+  // Allow hard tabs inside code blocks (Java/Go code style uses tabs)
+  "MD010": {
+    "code_blocks": false
+  },
+  // Allow multiple H1 in files with YAML frontmatter (ptx-pft verbatims
+  // have title in frontmatter and H1 in body)
+  "MD025": {
+    "front_matter_title": ""
+  }
+}
